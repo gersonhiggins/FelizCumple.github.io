@@ -1,0 +1,185 @@
+body {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: center / cover url(./images/69474059_10157545245874859_4671160878706458624_n.jpg) no-repeat;
+    opacity: 70%;
+    z-index: 0;
+    
+}
+.felix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+h1 {
+    font-size: 50px;
+    line-height: 130%;
+    font-weight: 50px;
+    z-index: 2;
+    color: rgba(93, 10, 87, 0.725);
+    transition: color 1s, font-size 1s;
+}
+h1:hover {
+    color: crimson;
+    font-size: 55px;
+}
+.grid-layout {
+    display: grid;
+    grid-template-columns: 5% 90% 5% ;
+    
+    
+}
+.grid {
+    min-height: 300px;
+    
+    z-index: 1;
+}
+
+.content {
+    display: flex;
+    max-width: 100%;
+    
+}
+
+button {
+    border-radius: 5px;
+    background-color: blueviolet;
+    width: 100%;
+    transition: background-color 0.5s;
+}
+button:hover {
+    background-color: rgb(34, 5, 62);
+}
+.images {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    transition: background-image 1s;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+}
+
+.image1 .b1:focus {
+    min-width: 300px;
+    min-height: 200px;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-image: url(./images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: inherit;
+    
+}
+.image2 .b2:focus {
+    min-width: 300px;
+    min-height: 200px;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-image: url(./images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: inherit;
+}
+.image3 .b3:focus {
+    min-width: 300px;
+    min-height: 200px;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-image: url(./images/image3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: inherit;
+}
+.image4 .b4:focus {
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-image: url(./images/image4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: inherit;
+}
+.image5 .b5:focus {
+    min-width: 300px;
+    min-height: 200px;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-image: url(./images/image5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: inherit;
+}
+.image6 .b6:focus {
+    min-width: 300px;
+    min-height: 200px;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-image: url(./images/image6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: inherit;
+}
+.image7 .b7:focus {
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-image: url(./images/image7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: inherit;
+}
+.image8 .b8:focus {
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-image: url(./images/image8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: inherit;
+}
+.image9 .b9:focus {
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-image: url(./images/image9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: inherit;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .images {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
